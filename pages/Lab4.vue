@@ -1,6 +1,6 @@
 <template>
     <div>Lab 4</div>
-    <main class="flex flex-col gap-4 p-12 justify-center min-h-screen items-center bg-gradient-to-b from-gray-200 to-blue-300 hover:to-red-300 flex-wrap">
+    <main class="flex flex-col gap-4 p-12 justify-center min-h-screen items-center bg-gradient-to-b from-gray-200 to-yellow-500 hover:to-blue-500 flex-wrap">
   
       <div class="flex gap-4">
         <label><input class="mx-2" type="radio" value="Goku" v-model="selectedpic">Goku</label>
@@ -47,23 +47,23 @@
   
   const pic1 = reactive<stking>({
     name: 'Goku',
-    image: '/img/Goku.png/'
+    image: '/images/Goku.png'
   })
   
   const pic2 = reactive<stking>({
     name: 'Vegeta',
-    image: '/img/vegeta.png/'
+    image: '/images/vegeta.png'
   })
   
   const pic3 = reactive<stking>({
     name: 'Gogeta',
-    image: '/img/Gogeta.png/'
+    image: '/images/Gogeta.png'
   })
   
   const genpic = reactive<stking[]>([
-    { name: 'Goku', image: '/img/Goku.png/' },
-    { name: 'Vegeta', image: '/img/vegeta.png/' },
-    { name: 'Gogeta', image: '/img/Gogeta.png/' }
+    { name: 'Goku', image: '/images/Goku.png' },
+    { name: 'Vegeta', image: '/images/vegeta.png' },
+    { name: 'Gogeta', image: '/images/Gogeta.png' }
   ])
   
   const selectedpic = ref<string>('')

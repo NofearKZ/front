@@ -3,7 +3,7 @@
     <h1>this is lab 3 page</h1>
 </div>
 
-  <main class="flex flex-col gap-4 p-12 justify-center min-h-screen items-center bg-gradient-to-b from-gray-200 to-blue-300 hover:to-green
+  <main class="flex flex-col gap-4 p-12 justify-center min-h-screen items-center bg-gradient-to-b from-gray-200 to-red-500 hover:to-green-400
   -300 flex-wrap">
 
     <div class="flex gap-4">
@@ -51,23 +51,23 @@ interface stking {
 
 const pic1 = reactive<stking>({
   name: 'Goku',
-  image:"/assets/images/Goku.png/"
+  image:'/images/Goku.png'
 })
 
 const pic2 = reactive<stking>({
   name: 'Vegeta',
-  image: '/assets/images/vegeta.png/'
+  image: '/images/vegeta.png'
 })
 
 const pic3 = reactive<stking>({
   name: 'Gogeta',
-  image: '/assets/images/Gogeta.png'
+  image: '/images/Gogeta.png'
 })
 
 const genpic = reactive<stking[]>([
-  { name: 'Goku', image:  '/assets/images/Goku.png/' },
-  { name: 'Vegeta', image: '/assets/images/vegeta.png/' },
-  { name: 'Gogeta', image: '/assets/images/Gogeta.png/' }
+  { name: 'Goku', image:  '/images/Goku.png' },
+  { name: 'Vegeta', image: '/images/vegeta.png' },
+  { name: 'Gogeta', image: '/images/Gogeta.png' }
 ])
 
 const selectedpic = ref<string>('')
