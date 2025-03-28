@@ -1,7 +1,7 @@
 <template>
-  <header class="flex flex-row w-full items-center relative bg-green-400 border-b-2 border-gray-400 max-sm:justify-between max-sm:relative">
+  <header class="flex flex-row w-full items-center relative bg-yellow-400 border-b-2 border-gray-400 max-sm:justify-between max-sm:relative">
       <div class="basis-1/4 items-center justify-start px-8 min-w-40 max-sm:basis-auto">
-          <img src="" class="w-16 h-16 bg-transparent" />
+          <img src="assets/images/Dragonball.png" class="w-16 h-16 bg-transparent" />
       </div>
 
       <div class="basis-1/4 max-sm:basis-auto"></div>
